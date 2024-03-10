@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/black"
+        android:text="Danh sách Sitemap"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#8E24AA"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lvListSiteMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="#A68804">
+    </ListView>
+
+    <Button
+        android:id="@+id/btUpdateData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:text="Cập nhật"
+        android:textSize="20dp"
+        android:textColor="#0A27DD"/>
+
+</LinearLayout>
